@@ -37,6 +37,12 @@
         "phpstan/phpstan-deprecation-rules": "^2.0",
         "phpstan/phpstan-phpunit": "^2.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aarondio/settings.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Outerweb\\FilamentSettings\\": "src/"
